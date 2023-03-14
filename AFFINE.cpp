@@ -250,6 +250,7 @@ int main(){
 				getline(cin,VanBanMaHoa);
     			fillTree(dictionary);
 				i=0;j=0;
+				cout<<endl;
 			    while (VanBanMaHoa[j]!='\0'){
 			    	count=0;
 			        if (((VanBanMaHoa[j]>='a')&&(VanBanMaHoa[j]<='z'))||((VanBanMaHoa[j]>='A')&&(VanBanMaHoa[j]<='Z'))) {
@@ -345,3 +346,4 @@ int main(){
 		}
 	}
 }
+//KFNW HQLCQPQ;QPQDY QDPHU LCTLPB QHT GVUVYB YJPUVI WVLIAUVLAR NHROYZG
