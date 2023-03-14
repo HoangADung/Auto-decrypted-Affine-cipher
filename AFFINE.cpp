@@ -258,6 +258,7 @@ int main(){
 			        }
 					else {
 						x.resize(i);
+						cout<<x<<" : ";
 		    			for(k1=1;k1<26;k1++){
 		    				if(UocChungLonNhat(k1,26)!=1){
 								continue;
@@ -285,6 +286,7 @@ int main(){
 			        j++;
 			    }
 			    x.resize(i);
+			    cout<<x<<" : ";			    
 		    	for(k1=1;k1<26;k1++){
 		    	if(UocChungLonNhat(k1,26)!=1){
 					continue;
